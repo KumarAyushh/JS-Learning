@@ -1,7 +1,7 @@
 const accountId = 14453
-let accountEmail = "mailkrayush@gmail.com"
+let accountEmail = "mailkrayush@gmail.com" //Declaration with initialization
 var accountPassword = "12345"
-accountCity = "Jaipur" //Declaration with initialization
+accountCity = "Jaipur" 
 let accountState; //Declaration without initialization
 //variables can even be declared without using const, var and let but we should avoid using such way
 
