@@ -42,3 +42,26 @@ const myFunction = function()
 }
 
 //in JavaScript, it is true that the datatype of every non-primitive is considered an object. This includes arrays, dates, regular expressions, and more. However, functions in JavaScript are a bit special; they are indeed objects, but they also have a specific type distinction as "function objects."
+
+
+
+//********************Memories ********************
+//Stack (Primitive), Heap (Non - Primitive)
+//whenever stack memory used then we get a copy of the variable
+
+//whenver heap memory is used we get the reference to the original value
+
+let anotherName = "Kumar Ayush"
+let myName = anotherName //a copy of anotherName is assigned to myName
+myName = "Ayush"
+console.log(anotherName)
+console.log(myName)
+
+let userOne = {
+    email: "username@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "Ayush@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
